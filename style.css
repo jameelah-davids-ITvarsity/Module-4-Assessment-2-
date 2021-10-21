@@ -6,110 +6,57 @@ body{
     background-color: deepskyblue;
 }
 
-#logo {
-    padding: 15px;
+
+#grid1-1{
+    position: absolute;
+    left: 0px;
+    top: 0px;
 }
 
-/*=============================== AFRICA ================================= */
-
-#africa-drop{
+#grid1-2{
     position: absolute;
-    left: 437px;
-    top: 262px;
+    left: 200px;
+    top: 0px;
 }
 
-#africa-draggable {
+#grid1-3{
     position: absolute;
-    left: -30px;
-    bottom: 0;
-    transform: scale(0.3);
+    left: 400px;
+    top: 0px;
 }
 
-/*=============================== ASIA ================================= */
-
-#asia-drop {
+#grid2-1{
     position: absolute;
-    left: 539px;
-    top: 40px;
+    left: 0px;
+    top: 200px;
 }
 
-#asia-draggable {
+#grid2-2{
     position: absolute;
-    left:  0;
-    bottom: -80px;
-    transform: scale(0.3);
+    left: 200px;
+    top: 200px;
 }
 
-/*=============================== AUSTRALIA ================================= */
-
-#australia-drop {
+#grid2-3{
     position: absolute;
-    left: 775px;
-    top: 393px;
+    left: 400px;
+    top: 200px;
 }
 
-#australia-draggable {
+#grid3-1{
     position: absolute;
-    left: 360;
-    bottom: 0px;
-    transform: scale(0.3);
+    left: 0px;
+    top: 400px;
 }
 
-/*=============================== EUROPE ================================= */
-
-#europe-drop {
+#grid3-2{
     position: absolute;
-    left: 460px;
-    top: 130px;
+    left: 200px;
+    top: 400px;
 }
 
-#europe-draggable {
+#grid3-3{
     position: absolute;
-    left:  460px;
-    bottom: 0px;
-    transform: scale(0.3);
-}
-/*=============================== GREENLAND ================================= */
-
-#greenland-drop {
-    position: absolute;
-    left: 350px;
-    top: 60px;
-}
-
-#greenland-draggable {
-    position: absolute;
-    left: 560px;
-    bottom: 0px;
-    transform: scale(0.3);
-}
-
-/*=============================== NORTH AMERICA ================================= */
-
-#north-america-drop {
-    position: absolute;
-    left: 40px;
-    top: 60px;
-}
-
-#north-america-draggable {
-    position: absolute;
-    left:  560px;
-    bottom: -80px;
-    transform: scale(0.3);
-}
-
-/*=============================== SOUTH AMERICA================================= */
-
-#south-america-drop {
-    position: absolute;
-    left: 260px;
-    top: 355px;
-}
-
-#south-america-draggable {
-    position: absolute;
-    left: 760px;
-    bottom: 0px;
-    transform: scale(0.3);
+    left: 400px;
+    top: 400px;
 }
